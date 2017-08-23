@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>invite</id>
+    <name>Invite</name>
+    <summary>Offers your users to invite others</summary>
+    <description><![CDATA[Invite others so they can give them a own username or alow others to invite people to your nextcloud. Gives you more control as an normal registration form where everywhere can regist]]></description>
+    <licence>agpl</licence>
+    <author mail="W.Rathgeb@dropanote.de" >Wolfgang Rathgeb</author>
+    <version>0.0.1</version>
+    <namespace>Invite</namespace>
+    <category>auth</category>
+    <bugs>https://github.com/CordlessWool/invite/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="12" max-version="12"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Invite</name>
+            <route>invite.page.index</route>
+        </navigation>
+    </navigations>
+</info>
